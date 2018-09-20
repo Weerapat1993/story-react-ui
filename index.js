@@ -1,1 +1,2 @@
-export * from './src/components'
+require('babel-register');
+require('./src/components')
